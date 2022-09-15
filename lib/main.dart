@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_libraries/classA/main_a.dart';
+import 'package:flutter_libraries/view/view.dart';
 import 'package:get/get.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       getPages: [
-        GetPage(name: '/', page: () => const MainClassA()),
+        GetPage(name: '/', page: () => const ViewScreen()),
       ],
     );
   }
