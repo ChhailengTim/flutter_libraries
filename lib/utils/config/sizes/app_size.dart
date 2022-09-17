@@ -5,4 +5,6 @@ class AppSize {
   static const double a15 = 15;
   static const double a16 = 16;
   static const double a20 = 20;
+  static const double a100 = 100;
+  static const double a200 = 200;
 }
