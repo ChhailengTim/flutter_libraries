@@ -313,7 +313,7 @@ class _AlignmentsScreenState extends State<AlignmentsScreen> {
                                                   alignment: Alignment.center,
                                                   child: InkWell(
                                                     onTap: (() => setState(() {
-                                                          center = center;
+                                                          reStart == center;
                                                         })),
                                                     child: Container(
                                                       height: AppSize.a100,

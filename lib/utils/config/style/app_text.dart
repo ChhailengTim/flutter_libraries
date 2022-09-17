@@ -4,4 +4,5 @@ class AppText {
   String absorpointer = 'absorb pointer'.capitalize!;
   String accumulator = 'accumulator'.capitalize!;
   String alignment = 'alignment'.capitalize!;
+  String alignmentdirectional = 'alignment directional'.capitalize!;
 }

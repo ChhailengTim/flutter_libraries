@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_libraries/classA/main_a.dart';
-import 'package:flutter_libraries/classA/view/alignments.dart';
 import 'package:flutter_libraries/utils/config/config.dart';
 import 'package:flutter_libraries/view/widgets/classes_card.dart';
-import 'package:get/get.dart';
 
 class DashbordScreen extends StatelessWidget {
   const DashbordScreen({Key? key}) : super(key: key);
@@ -33,6 +31,12 @@ class DashbordScreen extends StatelessWidget {
                 title: appText.alignment,
                 onTap: () {
                   Get.to(() => const AlignmentsScreen());
+                },
+              ),
+              ClassesCard(
+                title: appText.alignmentdirectional,
+                onTap: () {
+                  Get.to(() => const AlignmentDirectionalScreen());
                 },
               ),
             ],
