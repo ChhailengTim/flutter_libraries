@@ -1,16 +1,15 @@
 import 'package:get/get.dart';
 
-void routeToNamed(
-    {required String routeName, Map<String, String>? parameters}) async {
-  await Get.toNamed(routeName, parameters: parameters);
+void routeToNamed({required String routeName, dynamic arguments}) async {
+  await Get.toNamed(routeName, arguments: arguments);
 }
 
 void routeBack() {
   Get.back();
 }
 
-void routeTo() {
-  //Get.to();
+void routeTo(dynamic page) {
+  Get.to(page);
 }
 
 void routeOffAllNamed({required String routeName}) async {

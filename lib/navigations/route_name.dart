@@ -1,3 +1,5 @@
 class RouteName {
-  String viewa = '/viewa';
+  String absorbpointerscreen = '/absorbpointerscreen';
+  String accumulatorscreen = '/accumulatorscreen';
+  String alignmentDirectionalScreen = '/alignmentDirectionalScreen';
 }

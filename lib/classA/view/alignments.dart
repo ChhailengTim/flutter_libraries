@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_libraries/utils/config/config.dart';
-import 'package:get/get.dart';
 
 class AlignmentsScreen extends StatefulWidget {
   const AlignmentsScreen({super.key});

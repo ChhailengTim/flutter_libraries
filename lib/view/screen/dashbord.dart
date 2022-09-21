@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_libraries/classA/main_a.dart';
+import 'package:flutter_libraries/navigations/navigations.dart';
 import 'package:flutter_libraries/utils/config/config.dart';
 import 'package:flutter_libraries/view/widgets/classes_card.dart';
 
@@ -18,25 +18,27 @@ class DashbordScreen extends StatelessWidget {
               ClassesCard(
                 title: appText.absorpointer,
                 onTap: () {
-                  Get.to(() => const AbsorbPointerScreen());
+                  routeToNamed(routeName: RouteName().absorbpointerscreen);
                 },
               ),
               ClassesCard(
                 title: appText.accumulator,
                 onTap: () {
-                  Get.to(() => const AccumulatorScreen());
+                  routeToNamed(routeName: RouteName().accumulatorscreen);
                 },
               ),
               ClassesCard(
                 title: appText.alignment,
                 onTap: () {
-                  Get.to(() => const AlignmentsScreen());
+                  routeToNamed(
+                      routeName: RouteName().alignmentDirectionalScreen);
                 },
               ),
               ClassesCard(
                 title: appText.alignmentdirectional,
                 onTap: () {
-                  Get.to(() => const AlignmentDirectionalScreen());
+                  routeToNamed(
+                      routeName: RouteName().alignmentDirectionalScreen);
                 },
               ),
             ],
