@@ -1,6 +1,6 @@
 import 'package:flutter_libraries/classA/view/viewa.dart';
+import 'package:flutter_libraries/navigations/navigations.dart';
 import 'package:get/get.dart';
-import 'package:flutter_libraries/navigations/route_name.dart';
 
 class GetRoutes extends RouteName {
   List<GetPage> get routes => [

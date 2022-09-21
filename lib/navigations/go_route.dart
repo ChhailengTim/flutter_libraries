@@ -17,5 +17,5 @@ void routeOffAllNamed({required String routeName}) async {
 }
 
 void routeOffAll() async {
-  // await Get.offAll(page);
+  // await Get.offAll();
 }
