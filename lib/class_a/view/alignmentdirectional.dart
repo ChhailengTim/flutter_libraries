@@ -9,18 +9,15 @@ class AlignmentDirectionalScreen extends StatefulWidget {
       _AlignmentDirectionalScreenState();
 }
 
+AlignmentGeometry? align;
+
 class _AlignmentDirectionalScreenState
     extends State<AlignmentDirectionalScreen> {
   @override
   Widget build(BuildContext context) {
     final appText = Get.put(AppText());
-    var listAlign = [
-      'AlignmentDirectional.center',
-      'ssa',
-      'test',
-    ];
 
-    List<Map<String, dynamic>> listAlignmentDirectional = [
+    List<Map<String, AlignmentGeometry>> listAlignmentDirectional = [
       {
         'AlignmentDirectional': AlignmentDirectional.topStart,
       },
@@ -56,7 +53,7 @@ class _AlignmentDirectionalScreenState
       ),
       body: Center(
         child: Stack(
-          alignment: AlignmentDirectional.center,
+          alignment: align ?? AlignmentDirectional.center,
           children: [
             Container(
               width: 300,
@@ -86,7 +83,13 @@ class _AlignmentDirectionalScreenState
                 .map((e) => Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: ElevatedButton(
-                          child: Text(e.values.toString()), onPressed: () {}),
+                        child: Text('${e.values.first}'),
+                        onPressed: () {
+                          setState(() {
+                            align = e.values.first;
+                          });
+                        },
+                      ),
                     ))
                 .toList(),
           ),
