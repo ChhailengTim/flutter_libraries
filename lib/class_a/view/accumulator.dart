@@ -5,24 +5,28 @@ class AccumulatorScreen extends StatefulWidget {
   const AccumulatorScreen({Key? key}) : super(key: key);
 
   @override
-  State<AccumulatorScreen> createState() => _AccumulatorScreenState();
+  _AccumulatorScreen createState() => _AccumulatorScreen();
 }
 
-class _AccumulatorScreenState extends State<AccumulatorScreen> {
+class _AccumulatorScreen extends State<AccumulatorScreen> {
+  Accumulator accumulator = Accumulator();
   @override
   Widget build(BuildContext context) {
-    Accumulator accumulator = Accumulator();
     return Scaffold(
-      appBar: AppBar(
-        title: Text(AppText().accumulator),
-      ),
+      appBar: AppBar(title: Text(AppText().accumulator)),
       body: Center(
-        child: Text('${accumulator.value}'),
-      ),
+          child: Center(
+        child: Text(
+          '${accumulator.value}',
+          style: const TextStyle(
+            fontSize: 50,
+          ),
+        ),
+      )),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            accumulator.increment(2);
+            accumulator.increment(15);
           });
         },
         child: const Icon(Icons.add),
@@ -30,17 +34,6 @@ class _AccumulatorScreenState extends State<AccumulatorScreen> {
     );
   }
 }
-
-// class Accumulator {
-//   int get value => _value;
-//   int _value;
-//   Accumulator([this._value = 0]);
-
-//   void increment(int addend) {
-//     assert(addend >= 0);
-//     _value += addend;
-//   }
-// }
 
 class Accumulator {
   ///[Accumulator] may be initialized with a specified value, otherwise, it will
