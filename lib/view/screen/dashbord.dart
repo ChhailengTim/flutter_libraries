@@ -40,6 +40,12 @@ class DashbordScreen extends StatelessWidget {
                       routeName: RouteName().alignmentDirectionalScreen);
                 },
               ),
+              ClassesCard(
+                title: appText.aboutDialog,
+                onTap: () {
+                  routeToNamed(routeName: RouteName().aboutDialogScreen);
+                },
+              ),
             ],
           ),
         ),
