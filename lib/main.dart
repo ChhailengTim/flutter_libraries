@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_libraries/navigations/get_route.dart';
 import 'package:flutter_libraries/view/view.dart';
 import 'package:get/get.dart';
 
@@ -13,10 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      getPages: [
-        GetPage(name: '/', page: () => const ViewScreen()),
-      ],
+      getPages: GetRoutes().routes,
+      home: const ViewScreen(),
     );
   }
 }

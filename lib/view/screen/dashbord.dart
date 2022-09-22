@@ -30,8 +30,7 @@ class DashbordScreen extends StatelessWidget {
               ClassesCard(
                 title: appText.alignment,
                 onTap: () {
-                  routeToNamed(
-                      routeName: RouteName().alignmentDirectionalScreen);
+                  routeToNamed(routeName: RouteName().alignmentsScreen);
                 },
               ),
               ClassesCard(

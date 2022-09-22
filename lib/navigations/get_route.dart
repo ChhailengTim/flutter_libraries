@@ -1,4 +1,4 @@
-import 'package:flutter_libraries/classA/view/viewa.dart';
+import 'package:flutter_libraries/class_a/view/viewa.dart';
 import 'package:flutter_libraries/navigations/navigations.dart';
 import 'package:get/get.dart';
 
@@ -7,6 +7,7 @@ class GetRoutes extends RouteName {
         GetPage(
             name: absorbpointerscreen, page: () => const AbsorbPointerScreen()),
         GetPage(name: accumulatorscreen, page: () => const AccumulatorScreen()),
+        GetPage(name: alignmentsScreen, page: () => const AlignmentsScreen()),
         GetPage(
             name: alignmentDirectionalScreen,
             page: () => const AlignmentDirectionalScreen()),
