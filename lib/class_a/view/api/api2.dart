@@ -4,10 +4,7 @@ import 'package:flutter/cupertino.dart';
 class Apitest2 {
   Dio dio = Dio(BaseOptions(
     baseUrl: URLs.host,
-    headers: {
-      'Authorization':
-          'Bearer YourAccessToken'
-    },
+    headers: {'Authorization': 'Bearer YourAccessToken'},
   ));
 
   Future getHttp() async {
