@@ -12,5 +12,6 @@ class GetRoutes extends RouteName {
             name: alignmentDirectionalScreen,
             page: () => const AlignmentDirectionalScreen()),
         GetPage(name: aboutDialogScreen, page: () => const AboutDialogScreen()),
+        GetPage(name: actionChipScreen, page: () => const ActionChipScreen()),
       ];
 }

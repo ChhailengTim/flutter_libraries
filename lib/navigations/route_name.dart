@@ -4,4 +4,5 @@ class RouteName {
   String alignmentDirectionalScreen = '/alignmentDirectionalScreen';
   String alignmentsScreen = '/alignmentsScreen';
   String aboutDialogScreen = '/aboutDialogScreen';
+  String actionChipScreen = '/actionChipScreen';
 }

@@ -5,5 +5,6 @@ class AppText {
   String accumulator = 'accumulator'.capitalize!;
   String alignment = 'alignment'.capitalize!;
   String alignmentdirectional = 'alignment directional'.capitalize!;
-  String aboutDialog = 'AboutDialog'.capitalize!;
+  String aboutdialog = 'aboutDialog'.capitalize!;
+  String actionchip = 'actionChip'.capitalize!;
 }

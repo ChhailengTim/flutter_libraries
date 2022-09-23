@@ -9,7 +9,7 @@ class AboutDialogScreen extends StatelessWidget {
     final appText = Get.put(AppText());
     return Scaffold(
       appBar: AppBar(
-        title: Text(appText.aboutDialog),
+        title: Text(appText.aboutdialog),
       ),
       body: Center(
         child: ElevatedButton(
@@ -21,7 +21,7 @@ class AboutDialogScreen extends StatelessWidget {
               applicationLegalese: 'Hello World',
             );
           },
-          child: Text(appText.aboutDialog),
+          child: Text(appText.aboutdialog),
         ),
       ),
     );
