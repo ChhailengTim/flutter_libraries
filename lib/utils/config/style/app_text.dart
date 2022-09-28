@@ -7,4 +7,5 @@ class AppText {
   String alignmentdirectional = 'alignment directional'.capitalize!;
   String aboutdialog = 'aboutDialog'.capitalize!;
   String actionchip = 'actionChip'.capitalize!;
+  String actionListener = 'actionListener'.capitalize!;
 }
