@@ -8,4 +8,5 @@ class AppText {
   String aboutdialog = 'aboutDialog'.capitalize!;
   String actionchip = 'actionChip'.capitalize!;
   String actionListener = 'actionListener'.capitalize!;
+  String actions = 'actions'.capitalize!;
 }

@@ -6,4 +6,5 @@ class RouteName {
   String aboutDialogScreen = '/aboutDialogScreen';
   String actionChipScreen = '/actionChipScreen';
   String actionListener = '/actionListenerScreen';
+  String actions = '/actions';
 }
