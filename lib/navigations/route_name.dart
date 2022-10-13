@@ -7,4 +7,5 @@ class RouteName {
   String actionChipScreen = '/actionChipScreen';
   String actionListener = '/actionListenerScreen';
   String actions = '/actions';
+  String activateaction = '/activateaction';
 }

@@ -17,5 +17,6 @@ class GetRoutes extends RouteName {
         GetPage(name: actionChipScreen, page: () => const ActionChipScreen()),
         GetPage(name: actionListener, page: () => const ActionListenerScreen()),
         GetPage(name: actions, page: () => const ActionScreen()),
+        GetPage(name: activateaction, page: () => const AtivatactionScreen()),
       ];
 }

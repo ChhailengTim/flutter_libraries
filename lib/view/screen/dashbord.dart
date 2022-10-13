@@ -64,6 +64,12 @@ class DashbordScreen extends StatelessWidget {
                   routeToNamed(routeName: RouteName().actions);
                 },
               ),
+              ClassesCard(
+                title: appText.activateAction,
+                onTap: () {
+                  routeToNamed(routeName: RouteName().activateaction);
+                },
+              ),
             ],
           ),
         ),

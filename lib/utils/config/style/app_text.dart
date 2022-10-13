@@ -9,4 +9,5 @@ class AppText {
   String actionchip = 'actionChip'.capitalize!;
   String actionListener = 'actionListener'.capitalize!;
   String actions = 'actions'.capitalize!;
+  String activateAction = 'activateAction'.capitalize!;
 }
