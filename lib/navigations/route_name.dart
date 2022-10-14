@@ -14,5 +14,6 @@ class RouteName {
 
   // Widgets of the week
   String safeAreaScreen = '/safeAreaScreen';
+  String expandedScreen = '/expandedScreen';
 
 }

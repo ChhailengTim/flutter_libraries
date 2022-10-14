@@ -23,5 +23,6 @@ class GetRoutes extends RouteName {
             name: alignmentGeomentryScreen,
             page: () => const AlignmentGeomentryScreen()),
         GetPage(name: safeAreaScreen, page: () => const SafeAreaScreen()),
+        GetPage(name: expandedScreen, page: () => const ExpandedScreen()),
       ];
 }
