@@ -70,6 +70,12 @@ class DashbordScreen extends StatelessWidget {
                   routeToNamed(routeName: RouteName().activateaction);
                 },
               ),
+              ClassesCard(
+                title: appText.align,
+                onTap: () {
+                  routeToNamed(routeName: RouteName().alignScreen);
+                },
+              ),
             ],
           ),
         ),

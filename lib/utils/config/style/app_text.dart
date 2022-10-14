@@ -10,4 +10,5 @@ class AppText {
   String actionListener = 'actionListener'.capitalize!;
   String actions = 'actions'.capitalize!;
   String activateAction = 'activateAction'.capitalize!;
+  String align = 'align'.capitalize!;
 }

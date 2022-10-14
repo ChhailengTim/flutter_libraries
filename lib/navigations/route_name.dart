@@ -8,4 +8,5 @@ class RouteName {
   String actionListener = '/actionListenerScreen';
   String actions = '/actions';
   String activateaction = '/activateaction';
+  String alignScreen = '/alignScreen';
 }
