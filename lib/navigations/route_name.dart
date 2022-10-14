@@ -16,5 +16,6 @@ class RouteName {
   String safeAreaScreen = '/safeAreaScreen';
   String expandedScreen = '/expandedScreen';
   String wrapScreen = '/wrapScreen';
+  String animatedContainerScreen = '/animatedContainerScreen';
 
 }

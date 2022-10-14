@@ -17,4 +17,5 @@ class AppText {
   String safeArea = 'safe area'.capitalize!;
   String expanded = 'expanded'.capitalize!;
   String wrap = 'wrap'.capitalize!;
+  String animatedContainer = 'animated Container'.capitalize!;
 }

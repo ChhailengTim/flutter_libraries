@@ -25,5 +25,6 @@ class GetRoutes extends RouteName {
         GetPage(name: safeAreaScreen, page: () => const SafeAreaScreen()),
         GetPage(name: expandedScreen, page: () => const ExpandedScreen()),
         GetPage(name: wrapScreen, page: () => const WrapScreen()),
+        GetPage(name: animatedContainerScreen, page: () => const AnimatedContainerScreen()),
       ];
 }
