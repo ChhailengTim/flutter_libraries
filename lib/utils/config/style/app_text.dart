@@ -12,4 +12,7 @@ class AppText {
   String activateAction = 'activateAction'.capitalize!;
   String align = 'align'.capitalize!;
   String alignmentgeometry = 'alignmentgeomentry'.capitalize!;
+
+  // Widgets of the weeks
+  String safeArea = 'safe area'.capitalize!;
 }

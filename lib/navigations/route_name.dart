@@ -10,4 +10,9 @@ class RouteName {
   String activateaction = '/activateaction';
   String alignScreen = '/alignScreen';
   String alignmentGeomentryScreen = '/alignmentGeomentryScreen';
+  
+
+  // Widgets of the week
+  String safeAreaScreen = '/safeAreaScreen';
+
 }

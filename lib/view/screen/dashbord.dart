@@ -82,6 +82,12 @@ class DashbordScreen extends StatelessWidget {
                   routeToNamed(routeName: RouteName().alignmentGeomentryScreen);
                 },
               ),
+              ClassesCard(
+                title: appText.safeArea,
+                onTap: () {
+                  routeToNamed(routeName: RouteName().safeAreaScreen);
+                },
+              ),
             ],
           ),
         ),
