@@ -1,6 +1,6 @@
 import 'package:flutter_libraries/class_a/view/action_listener.dart';
 import 'package:flutter_libraries/class_a/view/actions.dart';
-import 'package:flutter_libraries/class_a/view/align.dart';
+import 'package:flutter_libraries/class_a/view/alignmentgeometry.dart';
 import 'package:flutter_libraries/class_a/view/viewa.dart';
 import 'package:flutter_libraries/navigations/navigations.dart';
 import 'package:get/get.dart';
@@ -19,6 +19,6 @@ class GetRoutes extends RouteName {
         GetPage(name: actionListener, page: () => const ActionListenerScreen()),
         GetPage(name: actions, page: () => const ActionScreen()),
         GetPage(name: activateaction, page: () => const AtivatactionScreen()),
-        GetPage(name: alignScreen, page: () => const AlignScreen()),
+        GetPage(name: alignmentGeomentryScreen, page: () => const AlignmentGeomentryScreen()),
       ];
 }

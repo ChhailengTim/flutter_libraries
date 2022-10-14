@@ -9,4 +9,5 @@ class RouteName {
   String actions = '/actions';
   String activateaction = '/activateaction';
   String alignScreen = '/alignScreen';
+  String alignmentGeomentryScreen = '/alignmentGeomentryScreen';
 }

@@ -11,4 +11,5 @@ class AppText {
   String actions = 'actions'.capitalize!;
   String activateAction = 'activateAction'.capitalize!;
   String align = 'align'.capitalize!;
+  String alignmentgeometry = 'alignmentgeomentry'.capitalize!;
 }
