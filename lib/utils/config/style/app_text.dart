@@ -16,4 +16,5 @@ class AppText {
   // Widgets of the weeks
   String safeArea = 'safe area'.capitalize!;
   String expanded = 'expanded'.capitalize!;
+  String wrap = 'wrap'.capitalize!;
 }
