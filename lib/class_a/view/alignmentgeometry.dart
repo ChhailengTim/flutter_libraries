@@ -19,39 +19,39 @@ class AlignmentGeomentryScreen extends StatelessWidget {
   }
 }
 
-class AligmentGeo extends AlignmentGeometry {
-  @override
-  AlignmentGeometry operator %(double other) {
-    throw UnimplementedError();
-  }
+// class AligmentGeo extends AlignmentGeometry {
+//   @override
+//   AlignmentGeometry operator %(double other) {
+//     throw UnimplementedError();
+//   }
 
-  @override
-  AlignmentGeometry operator *(double other) {
-    // TODO: implement *
-    throw UnimplementedError();
-  }
+//   @override
+//   AlignmentGeometry operator *(double other) {
+//     // TODO: implement *
+//     throw UnimplementedError();
+//   }
 
-  @override
-  AlignmentGeometry operator -() {
-    // TODO: implement -
-    throw UnimplementedError();
-  }
+//   @override
+//   AlignmentGeometry operator -() {
+//     // TODO: implement -
+//     throw UnimplementedError();
+//   }
 
-  @override
-  AlignmentGeometry operator /(double other) {
-    // TODO: implement /
-    throw UnimplementedError();
-  }
+//   @override
+//   AlignmentGeometry operator /(double other) {
+//     // TODO: implement /
+//     throw UnimplementedError();
+//   }
 
-  @override
-  Alignment resolve(TextDirection? direction) {
-    // TODO: implement resolve
-    throw UnimplementedError();
-  }
+//   @override
+//   Alignment resolve(TextDirection? direction) {
+//     // TODO: implement resolve
+//     throw UnimplementedError();
+//   }
 
-  @override
-  AlignmentGeometry operator ~/(double other) {
-    // TODO: implement ~/
-    throw UnimplementedError();
-  }
-}
+//   @override
+//   AlignmentGeometry operator ~/(double other) {
+//     // TODO: implement ~/
+//     throw UnimplementedError();
+//   }
+// }

@@ -1,6 +1,5 @@
 import 'package:flutter_libraries/class_a/view/action_listener.dart';
 import 'package:flutter_libraries/class_a/view/actions.dart';
-import 'package:flutter_libraries/class_a/view/alignmentgeometry.dart';
 import 'package:flutter_libraries/class_a/view/viewa.dart';
 import 'package:flutter_libraries/navigations/navigations.dart';
 import 'package:get/get.dart';

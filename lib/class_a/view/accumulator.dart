@@ -5,6 +5,7 @@ class AccumulatorScreen extends StatefulWidget {
   const AccumulatorScreen({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _AccumulatorScreen createState() => _AccumulatorScreen();
 }
 
