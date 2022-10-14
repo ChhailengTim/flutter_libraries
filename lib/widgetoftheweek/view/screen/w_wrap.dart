@@ -7,7 +7,7 @@ class WrapScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     int? select;
-    RxInt tap = select == null ? 100.obs : select.obs;
+    RxInt tap = select == null ? 0.obs : select.obs;
     return Scaffold(
       appBar: AppBar(
         title: Text(AppText().wrap),
