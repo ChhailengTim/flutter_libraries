@@ -22,4 +22,7 @@ class AppText {
   String futurebuilder = 'future builder'.capitalize!;
   String fadetransition = 'fade transition'.capitalize!;
   String floatingActionButton = 'floatingActionButton'.capitalize!;
+  String pageview = 'pageview'.capitalize!;
+  String table = 'table'.capitalize!;
+  String fadeInImage = 'fadeInImage'.capitalize!;
 }

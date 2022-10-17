@@ -134,6 +134,24 @@ class DashbordScreen extends StatelessWidget {
                         routeName: RouteName().floatingActionButtonScreen);
                   },
                 ),
+                ClassesCard(
+                  title: appText.pageview,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().pageViewScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.table,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().tableScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.fadeInImage,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().fadeinImageScreen);
+                  },
+                ),
               ],
             ),
           ),

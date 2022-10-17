@@ -20,4 +20,7 @@ class RouteName {
   String futureBuilderScreen = '/futureBuilderScreen';
   String fadeTransitionScreen = '/fadeTransitionScreen';
   String floatingActionButtonScreen = '/floatingActionButtonScreen';
+  String pageViewScreen = '/pageViewScreen';
+  String tableScreen = '/tableScreen';
+  String fadeinImageScreen = '/fadeinImageScreen';
 }
