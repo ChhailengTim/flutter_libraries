@@ -18,4 +18,6 @@ class AppText {
   String expanded = 'expanded'.capitalize!;
   String wrap = 'wrap'.capitalize!;
   String animatedContainer = 'animated Container'.capitalize!;
+  String opacity = 'opacity'.capitalize!;
+  String futurebuilder = 'future builder'.capitalize!;
 }

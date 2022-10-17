@@ -109,6 +109,18 @@ class DashbordScreen extends StatelessWidget {
                         routeName: RouteName().animatedContainerScreen);
                   },
                 ),
+                ClassesCard(
+                  title: appText.opacity,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().opacityScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.futurebuilder,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().futureBuilderScreen);
+                  },
+                ),
               ],
             ),
           ),
