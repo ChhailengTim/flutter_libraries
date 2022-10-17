@@ -25,4 +25,5 @@ class AppText {
   String pageview = 'pageview'.capitalize!;
   String table = 'table'.capitalize!;
   String fadeInImage = 'fadeInImage'.capitalize!;
+  String streamBuilder = 'streamBuilder'.capitalize!;
 }

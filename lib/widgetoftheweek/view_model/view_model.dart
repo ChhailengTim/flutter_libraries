@@ -7,10 +7,32 @@ class ViewModel extends GetxController {
   final RxList<PostModel> _postModelList = <PostModel>[].obs;
   List<PostModel> get postModelList => _postModelList.toList();
 
+  @override
+  void onInit() {
+    getModelData();
+    super.onInit();
+  }
+
   Future getModelData() async {
     final response = await _viewrepo.getPostData();
     if (response != null) {
       _postModelList.assignAll(response);
     }
   }
+
+  Stream getData() async* {
+    final response = await _viewrepo.getPostData();
+    if (response != null) {
+      _postModelList.assignAll(response);
+    }
+  }
+
+  Stream<int> generateNumbers = (() async* {
+    await Future<void>.delayed(const Duration(seconds: 2));
+
+    for (int i = 1; i <= 10; i++) {
+      await Future<void>.delayed(const Duration(seconds: 1));
+      yield i;
+    }
+  })();
 }

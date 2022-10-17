@@ -152,6 +152,12 @@ class DashbordScreen extends StatelessWidget {
                     routeToNamed(routeName: RouteName().fadeinImageScreen);
                   },
                 ),
+                ClassesCard(
+                  title: appText.streamBuilder,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().streamBuilderScreen);
+                  },
+                ),
               ],
             ),
           ),

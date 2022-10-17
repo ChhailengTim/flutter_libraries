@@ -23,4 +23,5 @@ class RouteName {
   String pageViewScreen = '/pageViewScreen';
   String tableScreen = '/tableScreen';
   String fadeinImageScreen = '/fadeinImageScreen';
+  String streamBuilderScreen = '/streamBuilderScreen';
 }

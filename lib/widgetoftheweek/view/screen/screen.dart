@@ -9,3 +9,4 @@ export 'w_floatingactionbutton.dart';
 export 'w_pageview.dart';
 export 'w_table.dart';
 export 'w_fadeinimage.dart';
+export 'w_streambuilder.dart';

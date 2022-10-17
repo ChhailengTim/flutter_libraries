@@ -37,14 +37,10 @@ class GetRoutes extends RouteName {
         GetPage(
             name: floatingActionButtonScreen,
             page: () => const FloatingActionButtonScreen()),
+        GetPage(name: pageViewScreen, page: () => const PageViewScreen()),
+        GetPage(name: tableScreen, page: () => const TableScreen()),
+        GetPage(name: fadeinImageScreen, page: () => const FadeinImageScreen()),
         GetPage(
-            name: pageViewScreen,
-            page: () => const PageViewScreen()),
-        GetPage(
-            name: tableScreen,
-            page: () => const TableScreen()),
-        GetPage(
-            name: fadeinImageScreen,
-            page: () => const FadeinImageScreen()),
+            name: streamBuilderScreen, page: () => const StreamBuilderScreen()),
       ];
 }
