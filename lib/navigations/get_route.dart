@@ -25,7 +25,17 @@ class GetRoutes extends RouteName {
         GetPage(name: safeAreaScreen, page: () => const SafeAreaScreen()),
         GetPage(name: expandedScreen, page: () => const ExpandedScreen()),
         GetPage(name: wrapScreen, page: () => const WrapScreen()),
-        GetPage(name: animatedContainerScreen, page: () => const AnimatedContainerScreen()),
-        GetPage(name: futureBuilderScreen, page: () => const FutureBuilderScreen()),
+        GetPage(
+            name: animatedContainerScreen,
+            page: () => const AnimatedContainerScreen()),
+        GetPage(name: opacityScreen, page: () => const OpacityScreen()),
+        GetPage(
+            name: futureBuilderScreen, page: () => const FutureBuilderScreen()),
+        GetPage(
+            name: fadeTransitionScreen,
+            page: () => const FadeTransitionScreen()),
+        GetPage(
+            name: floatingActionButtonScreen,
+            page: () => const FloatingActionButtonScreen()),
       ];
 }

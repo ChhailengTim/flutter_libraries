@@ -121,6 +121,19 @@ class DashbordScreen extends StatelessWidget {
                     routeToNamed(routeName: RouteName().futureBuilderScreen);
                   },
                 ),
+                ClassesCard(
+                  title: appText.fadetransition,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().fadeTransitionScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.floatingActionButton,
+                  onTap: () {
+                    routeToNamed(
+                        routeName: RouteName().floatingActionButtonScreen);
+                  },
+                ),
               ],
             ),
           ),

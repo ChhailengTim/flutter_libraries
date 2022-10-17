@@ -20,4 +20,6 @@ class AppText {
   String animatedContainer = 'animated Container'.capitalize!;
   String opacity = 'opacity'.capitalize!;
   String futurebuilder = 'future builder'.capitalize!;
+  String fadetransition = 'fade transition'.capitalize!;
+  String floatingActionButton = 'floatingActionButton'.capitalize!;
 }

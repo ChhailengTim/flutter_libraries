@@ -10,7 +10,6 @@ class RouteName {
   String activateaction = '/activateaction';
   String alignScreen = '/alignScreen';
   String alignmentGeomentryScreen = '/alignmentGeomentryScreen';
-  
 
   // Widgets of the week
   String safeAreaScreen = '/safeAreaScreen';
@@ -19,5 +18,6 @@ class RouteName {
   String animatedContainerScreen = '/animatedContainerScreen';
   String opacityScreen = '/opacityScreen';
   String futureBuilderScreen = '/futureBuilderScreen';
-
+  String fadeTransitionScreen = '/fadeTransitionScreen';
+  String floatingActionButtonScreen = '/floatingActionButtonScreen';
 }
