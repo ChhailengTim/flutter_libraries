@@ -10,3 +10,7 @@ export 'w_pageview.dart';
 export 'w_table.dart';
 export 'w_fadeinimage.dart';
 export 'w_streambuilder.dart';
+export 'w_tooltip.dart';
+export 'w_transform.dart';
+export 'w_backdropfilter.dart';
+export 'w_animatedbuilder.dart';

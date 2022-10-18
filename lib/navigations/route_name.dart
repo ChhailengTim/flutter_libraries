@@ -24,4 +24,8 @@ class RouteName {
   String tableScreen = '/tableScreen';
   String fadeinImageScreen = '/fadeinImageScreen';
   String streamBuilderScreen = '/streamBuilderScreen';
+  String tooltipScreen = '/tooltipScreen';
+  String transformScreen = '/transformScreen';
+  String backDropFilterScreen = '/backDropFilterScreen';
+  String animatedBuilderScreen = '/animatedBuilderScreen';
 }

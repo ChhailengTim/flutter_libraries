@@ -26,4 +26,8 @@ class AppText {
   String table = 'table'.capitalize!;
   String fadeInImage = 'fadeInImage'.capitalize!;
   String streamBuilder = 'streamBuilder'.capitalize!;
+  String tooltip = 'tooltip'.capitalize!;
+  String transform = 'transform'.capitalize!;
+  String backdropfilter = 'backdropfilter'.capitalize!;
+  String animatedBuilder = 'animatedBuilder'.capitalize!;
 }

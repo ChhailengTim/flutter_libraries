@@ -28,10 +28,13 @@ class OpacityScreen extends StatelessWidget {
                   color: Colors.green,
                 ),
               ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.blue,
+              Tooltip(
+                message: 'Hello opacity',
+                child: Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.blue,
+                ),
               ),
               AnimatedOpacity(
                 duration: const Duration(milliseconds: 1000),

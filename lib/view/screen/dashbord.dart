@@ -158,6 +158,30 @@ class DashbordScreen extends StatelessWidget {
                     routeToNamed(routeName: RouteName().streamBuilderScreen);
                   },
                 ),
+                ClassesCard(
+                  title: appText.tooltip,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().tooltipScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.transform,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().transformScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.backdropfilter,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().backDropFilterScreen);
+                  },
+                ),
+                ClassesCard(
+                  title: appText.animatedBuilder,
+                  onTap: () {
+                    routeToNamed(routeName: RouteName().animatedBuilderScreen);
+                  },
+                ),
               ],
             ),
           ),

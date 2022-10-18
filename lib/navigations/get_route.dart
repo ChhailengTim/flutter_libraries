@@ -42,5 +42,13 @@ class GetRoutes extends RouteName {
         GetPage(name: fadeinImageScreen, page: () => const FadeinImageScreen()),
         GetPage(
             name: streamBuilderScreen, page: () => const StreamBuilderScreen()),
+        GetPage(
+            name: tooltipScreen, page: () => const TooltipScreen()),
+        GetPage(
+            name: transformScreen, page: () => const TransformScreen()),
+        GetPage(
+            name: backDropFilterScreen, page: () => const BackDropFilterScreen()),
+        GetPage(
+            name: animatedBuilderScreen, page: () => const AnimatedBuilderScreen()),
       ];
 }
