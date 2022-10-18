@@ -28,4 +28,7 @@ class RouteName {
   String transformScreen = '/transformScreen';
   String backDropFilterScreen = '/backDropFilterScreen';
   String animatedBuilderScreen = '/animatedBuilderScreen';
+  String dismissibleScreen = '/dismissibleScreen';
+  String draggableScreen = '/draggableScreen';
+  String colorFilteredScreen = '/colorFilteredScreen';
 }

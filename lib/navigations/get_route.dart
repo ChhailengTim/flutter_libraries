@@ -50,5 +50,11 @@ class GetRoutes extends RouteName {
             name: backDropFilterScreen, page: () => const BackDropFilterScreen()),
         GetPage(
             name: animatedBuilderScreen, page: () => const AnimatedBuilderScreen()),
+        GetPage(
+            name: dismissibleScreen, page: () => const DismissibleScreen()),
+        GetPage(
+            name: draggableScreen, page: () => const DraggableScreen()),
+        GetPage(
+            name: colorFilteredScreen, page: () => const ColorFilteredScreen()),
       ];
 }

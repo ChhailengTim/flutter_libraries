@@ -30,4 +30,7 @@ class AppText {
   String transform = 'transform'.capitalize!;
   String backdropfilter = 'backdropfilter'.capitalize!;
   String animatedBuilder = 'animatedBuilder'.capitalize!;
+  String dismissible = 'dismissible'.capitalize!;
+  String draggable = 'draggable'.capitalize!;
+  String colorFiltered = 'colorFilered'.capitalize!;
 }

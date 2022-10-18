@@ -14,3 +14,6 @@ export 'w_tooltip.dart';
 export 'w_transform.dart';
 export 'w_backdropfilter.dart';
 export 'w_animatedbuilder.dart';
+export 'w_dismissible.dart';
+export 'w_draggable.dart';
+export 'w_colorfiltered.dart';
